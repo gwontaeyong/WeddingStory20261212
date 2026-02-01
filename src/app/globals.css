@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+* { -webkit-tap-highlight-color: transparent; }
+
+a { text-underline-offset: 3px; }
+
+.shadow-soft {
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
